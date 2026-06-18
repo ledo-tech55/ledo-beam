@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Exclude dynamic share links from being crawled (these expire and are private anyway)
+Disallow: /*#*
+
+# Tell Google exactly where the sitemap is
+Sitemap: https://beam.ledo-tech.com/sitemap.xml

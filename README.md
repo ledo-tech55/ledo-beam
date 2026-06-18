@@ -16,7 +16,7 @@
 
 **Your files never touch our servers. Ever.**
 
-[Live Demo](https://beam.ledo-tech.com) · [Report Bug](https://github.com/ledo-tech55/ledo-beam/issues) · [Request Feature](https://github.com/ledo-tech55/ledo-beam/issues)
+[Live Demo](https://beam.ledo-tech.com) · [Report Bug](https://github.com/ledo-tech/LedoBeam.Backend/issues) · [Request Feature](https://github.com/ledo-tech/LedoBeam.Backend/issues)
 
 </div>
 
@@ -85,8 +85,8 @@ LEDO-Beam is a two-component system designed for maximum simplicity and security
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/ledo-tech55/ledo-beam.git
-cd ledo-beam
+git clone https://github.com/ledo-tech/LedoBeam.Backend.git
+cd LedoBeam.Backend
 ```
 
 ### 2. Start the Signaling Backend
