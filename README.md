@@ -85,8 +85,8 @@ LEDO-Beam is a two-component system designed for maximum simplicity and security
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/ledo-tech/LedoBeam.Backend.git
-cd LedoBeam.Backend
+git clone https://github.com/ledo-tech55/ledo-beam.git
+cd ledo-beam
 ```
 
 ### 2. Start the Signaling Backend
