@@ -10,7 +10,7 @@
  *   #terms  →  TermsView
  *   #privacy  →  PrivacyView
  * 
- * @author LEDO-TECH (https://github.com/ledo-tech55)
+ * @author LEDO-TECH (https://github.com/ledo-tech)
  * =============================================================================
  */
 

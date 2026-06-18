@@ -12,7 +12,7 @@
  * - Firefox/Safari: Falls back to Blob assembly in RAM. Shows a warning
  *   for files >2GB.
  * 
- * @author LEDO-TECH (https://github.com/ledo-tech55)
+ * @author LEDO-TECH (https://github.com/ledo-tech)
  * =============================================================================
  */
 

@@ -5,7 +5,7 @@
  * 
  * Bootstraps the React application. Imports global styles (TailwindCSS v4).
  * 
- * @author LEDO-TECH (https://github.com/ledo-tech55)
+ * @author LEDO-TECH (https://github.com/ledo-tech)
  * =============================================================================
  */
 

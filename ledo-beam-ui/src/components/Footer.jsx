@@ -50,7 +50,7 @@ export default function Footer() {
           {/* Right — GitHub star button */}
           <div className="flex justify-center md:justify-end">
             <a
-              href="https://github.com/ledo-tech55/LedoBeam"
+              href="https://github.com/ledo-tech/LedoBeam"
               target="_blank"
               rel="noopener noreferrer"
               className="group relative inline-flex items-center gap-2 px-4 py-1.5 rounded-full

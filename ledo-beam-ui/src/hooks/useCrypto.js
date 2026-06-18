@@ -18,7 +18,7 @@
  * We generate a random 8-byte nonce at key creation time and combine it
  * with a 4-byte chunk counter. This guarantees uniqueness across all chunks.
  * 
- * @author LEDO-TECH (https://github.com/ledo-tech55)
+ * @author LEDO-TECH (https://github.com/ledo-tech)
  * =============================================================================
  */
 

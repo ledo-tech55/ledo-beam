@@ -49,7 +49,7 @@ export default function Header() {
 
           {/* GitHub pill button */}
           <a
-            href="https://github.com/ledo-tech55/LedoBeam"
+            href="https://github.com/ledo-tech/LedoBeam"
             target="_blank"
             rel="noopener noreferrer"
             className="group relative inline-flex items-center gap-2 px-4 py-1.5 rounded-full

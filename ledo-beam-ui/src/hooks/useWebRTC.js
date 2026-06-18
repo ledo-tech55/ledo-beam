@@ -19,7 +19,7 @@
  * STUN CONFIG: Google's public STUN servers (stun:stun.l.google.com:19302)
  * These handle NAT traversal for ~80% of consumer connections.
  * 
- * @author LEDO-TECH (https://github.com/ledo-tech55)
+ * @author LEDO-TECH (https://github.com/ledo-tech)
  * =============================================================================
  */
 

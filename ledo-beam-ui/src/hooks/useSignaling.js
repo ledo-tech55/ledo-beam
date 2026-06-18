@@ -19,7 +19,7 @@
  *   Events:   PeerJoined(connectionId), ReceiveSignal(connectionId, signal),
  *             PeerDisconnected(connectionId)
  * 
- * @author LEDO-TECH (https://github.com/ledo-tech55)
+ * @author LEDO-TECH (https://github.com/ledo-tech)
  * =============================================================================
  */
 

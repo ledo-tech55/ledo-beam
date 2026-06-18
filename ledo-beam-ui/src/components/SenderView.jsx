@@ -6,7 +6,7 @@
  * Premium sender experience with glassmorphism design, smooth animated
  * state transitions, and a clear step-by-step flow.
  * 
- * @author LEDO-TECH (https://github.com/ledo-tech55)
+ * @author LEDO-TECH (https://github.com/ledo-tech)
  * =============================================================================
  */
 

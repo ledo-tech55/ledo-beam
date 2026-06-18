@@ -11,7 +11,7 @@
  * - File type icon and size display after selection
  * - Handles dragenter, dragover, dragleave, drop events
  * 
- * @author LEDO-TECH (https://github.com/ledo-tech55)
+ * @author LEDO-TECH (https://github.com/ledo-tech)
  * =============================================================================
  */
 
