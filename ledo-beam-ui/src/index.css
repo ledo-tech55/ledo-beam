@@ -1,0 +1,213 @@
+/**
+ * =============================================================================
+ * LEDO-Beam — Global Styles (TailwindCSS v4)
+ * =============================================================================
+ * 
+ * TailwindCSS v4 uses CSS-first configuration. All design tokens are defined
+ * here using @theme — no tailwind.config.js needed.
+ * 
+ * COLOR PALETTE:
+ * - Primary: Electric purple (#6C5CE7)
+ * - Secondary: Neon cyan (#00D2FF)  
+ * - Dark surfaces: Deep navy/black
+ * - Designed for a premium dark-mode tech aesthetic
+ * 
+ * TYPOGRAPHY:
+ * - Inter from Google Fonts (loaded via @import)
+ * 
+ * @author LEDO-TECH (https://github.com/ledo-tech55)
+ * =============================================================================
+ */
+
+/* Google Fonts — Inter (variable weight) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+/* TailwindCSS v4 base */
+@import "tailwindcss";
+
+/* ============================================================================
+ * THEME TOKENS
+ * ============================================================================ */
+@theme {
+  /* Brand colors */
+  --color-ledo-primary: #6C5CE7;
+  --color-ledo-secondary: #00D2FF;
+  --color-ledo-accent: #A855F7;
+
+  /* Surface colors (dark mode) */
+  --color-ledo-dark: #06060F;
+  --color-ledo-surface: #0E0E1F;
+  --color-ledo-surface-hover: #161630;
+  --color-ledo-border: #1C1C3A;
+
+  /* Text colors */
+  --color-ledo-text: #E8E8F0;
+  --color-ledo-muted: #6B6B8D;
+
+  /* Typography */
+  --font-family-sans: 'Inter', system-ui, -apple-system, sans-serif;
+
+  /* Custom animations — existing */
+  --animate-shimmer: shimmer 2s linear infinite;
+  --animate-fade-in: fadeIn 0.5s ease-out;
+  --animate-slide-up: slideUp 0.5s ease-out;
+  --animate-glow: glow 2s ease-in-out infinite alternate;
+
+  /* Custom animations — new */
+  --animate-float: float 6s ease-in-out infinite;
+  --animate-beam-sweep: beam-sweep 3s ease-in-out;
+  --animate-pulse-ring: pulse-ring 1.5s ease-out;
+  --animate-gradient-shift: gradient-shift 8s linear infinite;
+}
+
+/* ============================================================================
+ * KEYFRAME ANIMATIONS
+ * ============================================================================ */
+
+/* Progress bar shimmer — gradient moves left to right */
+@keyframes shimmer {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+/* Fade in from transparent */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Slide up entrance */
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Subtle glow pulse */
+@keyframes glow {
+  from {
+    box-shadow: 0 0 20px rgba(108, 92, 231, 0.15);
+  }
+  to {
+    box-shadow: 0 0 40px rgba(0, 210, 255, 0.2);
+  }
+}
+
+/* Gentle floating motion — great for hero elements & badges */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(-5px);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+}
+
+/* Horizontal light sweep — use on overlays or pseudo-elements */
+@keyframes beam-sweep {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+/* Expanding ring that fades out — attention-drawing pulse */
+@keyframes pulse-ring {
+  0% {
+    transform: scale(0.8);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(2.5);
+    opacity: 0;
+  }
+}
+
+/* Continuously rotating conic/linear gradient — living backgrounds */
+@keyframes gradient-shift {
+  0% {
+    --gradient-angle: 0deg;
+  }
+  100% {
+    --gradient-angle: 360deg;
+  }
+}
+
+/* ============================================================================
+ * BASE STYLES
+ * ============================================================================ */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  background-color: #06060F;
+  color: #E8E8F0;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Custom scrollbar (Chromium) */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0E0E1F;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1C1C3A;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6C5CE7;
+}
+
+/* Firefox scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #1C1C3A #0E0E1F;
+}
+
+/* Selection color */
+::selection {
+  background-color: rgba(108, 92, 231, 0.3);
+  color: #E8E8F0;
+}
+
+/* Focus ring for accessibility */
+:focus-visible {
+  outline: 2px solid #6C5CE7;
+  outline-offset: 2px;
+}
